@@ -12,3 +12,7 @@ CSS Animations:
 Live Custom Gradient With Javascript: 
 </h2>
 <img src="Media/Live Gradient.gif">
+<h2>
+Seperate Dark Mode: 
+</h2>
+<img src="Media/Dark Mode.png">
