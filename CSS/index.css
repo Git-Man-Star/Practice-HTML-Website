@@ -1,0 +1,62 @@
+:root {
+    --ThemeColor1: #f64c72;
+    --ThemeColor2: #242fa2;
+    --ComponentColor1: #4CF6D0;
+    --ComponentColor2: #A29724;
+}
+
+#DarkModeChanger{
+    background-color: var(--ThemeColor1);
+    height: 50%;
+    width: 10%;
+    transform: translateY(0px); 
+    transition: transform 100ms ease-in-out;
+    outline-style: none;
+    border-radius: 90px;
+    cursor: pointer;
+}
+#LightModeChanger{
+    background-color: #dddddd;
+    height: 50%;
+    width: 10%;
+    transform: translateY(20px); 
+    transition: transform 100ms ease-in-out;
+    outline-style: none;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+.Bla{
+    background-color: var(--ComponentColor2);
+    border-width: 10px;
+    border: solid;
+    border-color: var(--ComponentColor2);
+    width: 70px;
+    height: 70px;
+    transform: translateY(-20px);    
+    transition: transform 600ms ease-in-out;
+}
+.element{
+    background-color: var(--ComponentColor2);
+    border-width: 10px;
+    border: solid;
+    border-color: var(--ComponentColor2);
+    width: 70px;
+    height: 70px;
+    transform: translateY(20px);
+    transition: transform 600ms ease-in-out;
+}
+.ContainerOdd{
+    background-color: var(--ThemeColor1);
+    border: solid;
+    border-width: 20px;
+    border-color: var(--ThemeColor2);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+.ContainerEven{
+    background-color: var(--ThemeColor2);
+    border: solid;
+    border-width: 20px;
+    border-color: var(--ThemeColor1);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
