@@ -20,8 +20,8 @@ function ChangingMode(){
         document.getElementById('LightModeButtonText').style.color = 'rgba(0,0,0,1)';
     }
     if (i%2==0) {
-        document.documentElement.style.setProperty('--ThemeColor1', '#f64c72');   
-        document.documentElement.style.setProperty('--ThemeColor2', '#242fa2');
+        document.documentElement.style.setProperty('--ThemeColor1', '#1b1c20');   
+        document.documentElement.style.setProperty('--ThemeColor2', '#ec352e');
         document.documentElement.style.setProperty('--ComponentColor1', '#4CF6D0');
         document.documentElement.style.setProperty('--ComponentColor2', '#A29724');
         document.getElementById('LightModeChanger').id = 'DarkModeChanger';
