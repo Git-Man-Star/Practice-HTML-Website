@@ -75,4 +75,4 @@ function Just_Copy() {
   document.execCommand("copy");
 }
 
-document.querySelector("#Copyier").addEventListener("click", Just_Copy);
+document.querySelector("#Copyier").addEventListener("click", Just_Copy());
