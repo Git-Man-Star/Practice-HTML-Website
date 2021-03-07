@@ -71,4 +71,5 @@ function Add(ColorToBeAdded){
 
 function Just_Copy(){
 document.execCommand("WhiteQuotes")
+    alert("WhiteQuotes")
 }
