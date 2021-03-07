@@ -71,8 +71,9 @@ function Add(ColorToBeAdded){
 
 function Just_Copy() {
     alert("WhiteQuotes")
-  "WhiteQuotes".select();
-  document.execCommand("copy");
+    var Stringggggg = "WhiteQuotes"
+    Stringggggg.select();
+    document.execCommand("copy");
 }
 
 document.querySelector("#Copyier").addEventListener("click", Just_Copy());
