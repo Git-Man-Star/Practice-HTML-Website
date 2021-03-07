@@ -68,3 +68,7 @@ function Add(ColorToBeAdded){
         document.getElementById('GradientOfGod').style.background = FirstString;
     }
 }
+
+function Just_Copy(){
+document.execCommand("WhiteQuotes")
+}
