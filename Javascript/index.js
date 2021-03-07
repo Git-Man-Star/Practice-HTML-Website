@@ -72,7 +72,7 @@ function Add(ColorToBeAdded){
 function Just_Copy() {
     alert("WhiteQuotes")
     var Stringggggg = "WhiteQuotes"
-    Stringggggg.select();
+    Stringggggg.focus();
     document.execCommand("copy");
 }
 
