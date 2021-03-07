@@ -70,6 +70,6 @@ function Add(ColorToBeAdded){
 }
 
 function Just_Copy(){
-document.execCommand("WhiteQuotes")
+document.execCommand("WhiteQuotes");
     alert("WhiteQuotes")
 }
